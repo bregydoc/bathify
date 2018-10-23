@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Heading from './components/Heading';
 import styled from 'styled-components';
 import heroImage from './images/heroimage.png';
-import Button from './components/Button';
+// import Button from './components/Button';
 
 import step1 from './images/step1.png';
 import step2 from './images/step2.png';
