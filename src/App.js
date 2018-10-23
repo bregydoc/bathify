@@ -109,7 +109,7 @@ const StepScaffold = styled.div`
 	padding: 0 8vw;
 	justify-content: space-around;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 80px;
 `;
 const Step = styled.div`
 	flex: 1;
@@ -119,7 +119,7 @@ const StepText = styled.div`
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
 	color: #505050;
-	font-size: 14px;
+	font-size: 16px;
 	margin-top: 20px;
 	margin-bottom: 50px;
 	text-align: center;
@@ -159,7 +159,8 @@ class App extends Component {
 					</Hero>
 					<CallToAction>
 						{/* → */}
-						<Button>SIGN UP FOR THE BETA </Button>
+
+						{/* <Button>SIGN UP FOR THE BETA </Button> */}
 					</CallToAction>
 					<StepsWrapper>
 						<EasyTitle>Bathify is easy to use</EasyTitle>
@@ -171,15 +172,27 @@ class App extends Component {
 						</Resume>
 						<StepScaffold>
 							<Step>
-								<img src={step1} alt="" />
+								<img
+									src={step1}
+									alt=""
+									style={{ width: 'auto', height: '208px' }}
+								/>
 								<StepText>Do you need something?</StepText>
 							</Step>
 							<Step>
-								<img src={step2} alt="" />
+								<img
+									src={step2}
+									alt=""
+									style={{ width: 'auto', height: '208px' }}
+								/>
 								<StepText>Only push and alert it!</StepText>
 							</Step>
 							<Step>
-								<img src={step3} alt="" />
+								<img
+									src={step3}
+									alt=""
+									style={{ width: 'auto', height: '208px' }}
+								/>
 								<StepText>Wait and be happy</StepText>
 							</Step>
 						</StepScaffold>
